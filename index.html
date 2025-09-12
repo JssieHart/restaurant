@@ -21,23 +21,34 @@
         <tr>
           <td>
             <div class="menu-card">
-              <div class="menu-item">
+              <div class="menu-item" onclick="togglePrice('1')">
                 <div class="menu-item-container">
                   <img src="images/shrimp.jpeg" alt="Shrimps" />
                   <p>Fried Shrimps</p>
                 </div>
-                <span>$100</span>
+                <span class="price" id="1">$100</span>
               </div>
             </div>
           </td>
           <td>
             <div class="menu-card">
-              <div class="menu-item">
+              <div class="menu-item" onclick="togglePrice('2')">
                 <div class="menu-item-container">
                   <img src="images/breakfast.jpeg" alt="Breakfast" />
                   <p>Sweet Tooth</p>
                 </div>
-                <span>$12</span>
+                <span class="price" id="2">$12</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="menu-card">
+              <div class="menu-item" onclick="togglePrice('3')">
+                <div class="menu-item-container">
+                  <img src="images/spag.jpeg" alt="spaghetti" />
+                  <p>Spaghetti</p>
+                </div>
+                <span class="price" id="3">$70</span>
               </div>
             </div>
           </td>
@@ -45,23 +56,72 @@
         <tr>
           <td>
             <div class="menu-card">
-              <div class="menu-item">
+              <div class="menu-item" onclick="togglePrice('4')">
                 <div class="menu-item-container">
                   <img src="images/fries.jpeg" alt="fries" />
                   <p>Loaded Fries</p>
                 </div>
-                <span>$150</span>
+                <span class="price show" id="4">$150</span>
               </div>
             </div>
           </td>
           <td>
             <div class="menu-card">
-              <div class="menu-item">
+              <div class="menu-item" onclick="togglePrice('5')">
                 <div class="menu-item-container">
                   <img src="images/chicken.jpeg" alt="chicken" />
                   <p>Chicken Breast</p>
                 </div>
-                <span>$50</span>
+                <span class="price show" id="5">$50</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="menu-card">
+              <div class="menu-item" onclick="togglePrice('6')">
+                <div class="menu-item-container">
+                  <img src="images/seafood.jpeg" alt="chicken" />
+                  <p>Seafood Plater</p>
+                </div>
+                <span class="price show" id="6">$250</span>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="menu-card">
+              <div class="menu-item" onclick="togglePrice('7')">
+                <div class="menu-item-container">
+                  <img
+                    src="images/chicken shawarma.jpeg"
+                    alt="chicken shawarma"
+                  />
+                  <p>Chicken Shawarma</p>
+                </div>
+                <span class="price show" id="7">$150</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="menu-card">
+              <div class="menu-item" onclick="togglePrice('8')">
+                <div class="menu-item-container">
+                  <img src="images/shawarma.jpeg" alt="shawarma" />
+                  <p>Shawarma</p>
+                </div>
+                <span class="price show" id="8">$150</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="menu-card">
+              <div class="menu-item" onclick="togglePrice('9')">
+                <div class="menu-item-container">
+                  <img src="images/doughnut.jpeg" alt="doughnut" />
+                  <p>Doughnut</p>
+                </div>
+                <span class="price show" id="9">$60</span>
               </div>
             </div>
           </td>
@@ -80,5 +140,6 @@
       <p><b>Tel:</b> 0570293879</p>
       <p><b>Email:</b> grills@gmail.com</p>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>

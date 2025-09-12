@@ -95,6 +95,12 @@ section {
   display: flex;
   align-items: center;
 }
+.price {
+  display: none;
+}
+.price.show {
+  display: inline;
+}
 
 /* Use a media query to add a breakpoint at 800px:
 @media screen and (max-width: 800px) {
