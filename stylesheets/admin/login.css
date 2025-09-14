@@ -45,3 +45,15 @@ form button {
 form button:hover {
   background-color: #357ab8;
 }
+.signup-link {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
